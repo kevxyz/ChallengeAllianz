@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: test.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 4.599 s <<< FAILURE! - in test.LoginTest
+loginTest(test.LoginTest)  Time elapsed: 2.736 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at test.LoginTest.loginTest(LoginTest.java:24)
+
+loginInvalidoTest(test.LoginTest)  Time elapsed: 1.804 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at test.LoginTest.loginInvalidoTest(LoginTest.java:32)
+

@@ -1,0 +1,4 @@
+pages\ProductsPage.class
+steps\LoginStepDefs.class
+utilities\WebDriverManager.class
+pages\LoginPage.class
